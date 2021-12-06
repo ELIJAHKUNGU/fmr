@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Allerta&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.top-navbar {
+    height: 70px;
+    box-shadow: 0 1px 1px -1px #2f3542;
+}
+
+.mid-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.mid-nav {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.mid-nav ul li {
+    list-style: none;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.mid-nav ul li a {
+    text-decoration: none;
+    line-height: 30px;
+    color: #2f3542;
+    font-family: "Roboto", sans-serif;
+}
+
+.img-logo {
+    height: 70px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.right-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.right-nav ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.right-nav a {
+    text-decoration: none;
+}
+
+.register-btn {
+    margin-left: 20px;
+}
+
+.login-btn a {
+    color: #2f3542;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.register-btn a {
+    color: #fff;
+    line-height: 30px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    background-color: #ff3838;
+}
+
+.main-search-section {}
+
+.home-search {
+    background: url(../images/bg-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.home-search-title h6 {
+    color: #fff;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.home-search-details {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1 !important;
+}
+
+.home-search-card {
+    opacity: 1 !important;
+    padding: 10px 20px;
+    display: flex;
+    margin-top: auto;
+    height: 200px;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin-left: auto;
+    border-radius: 5px;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.form-group1 {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group1 input {
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.form-group1 input {
+    outline-width: 0;
+}
+
+.form-group1 button {
+    background-color: #ff3838;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-group2 {
+    display: flex;
+}
+
+.select-group-2 {
+    margin-left: 10px;
+}
+
+.select-group-1 select {
+    padding: 10px 30px;
+    width: 180px;
+    height: 50px;
+}
+
+.select-group-2 input {
+    padding: 10px 10px;
+    width: 180px;
+    height: 50px;
+    outline-width: 0;
+}
+
+.featured-img {
+    position: relative;
+}
+
+.featured-price {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+.featured-price button {
+    margin-left: 10px;
+    background-color: #ff3838;
+    outline-width: 0;
+    border: none;
+    padding: 2px 10px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.featured-card {
+    width: 300px;
+    box-shadow: 0 1px 2px -1px #2f3542;
+    height: 300px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.featured-img img {
+    width: 100%;
+    height: 200px;
+}
+
+.featured-details {
+    padding: 3px 10px;
+}
+
+.sqr-fits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row-intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row-intro h6 {
+    color: #2f3542;
+    padding-top: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.row-intro p {
+    font-weight: 300;
+    color: #cad3c8;
+}
+
+.rental-type {
+    align-items: center;
+}
+
+.fa-star {
+    padding: 10px;
+}
+
+.fa-star:hover {
+    background-color: #cad3c8;
+    border-radius: 50%;
+}
+
+.discovered-rentals {
+    margin: 20px 0px;
+}
+
+.home-footer {
+    padding: 30px 0px;
+    background-color: #2f3542;
+    min-height: 100vh;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.footer-item {
+    list-style: none;
+}
+
+.footer-title {
+    display: flex;
+    color: #ff3838;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-item-links {
+    align-items: center;
+}
+
+.footer-item-links li {
+    list-style: none;
+}
+
+.footer-item-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.footer-item-links i {
+    margin-right: 20px;
+    background: #ff3838;
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.submit-btn-login {
+    display: flex;
+    text-align: center;
+}
+
+.form-group-login {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.login-to-account-right {
+    padding-top: 70px;
+}
+
+.form-group-login input {
+    width: 100%;
+    padding: 15px 10px;
+    outline-width: 0;
+    border: 1px solid #2f3542;
+    border-radius: 30px;
+}
+
+.creat-acc,
+.check-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.google-auth {
+    height: 50px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2f3542;
+}
+
+.check-btns a,
+.creat-acc a,
+.google-auth a {
+    text-decoration: none;
+}
+
+.submit-btn-login button {
+    background-color: #ff3838;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 30px;
+}
+
+.slick-dots {
+    display: flex;
+    left: 50%;
+    position: absolute;
+}
+
+.slick-dots li {
+    margin: 10px 10px;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    visibility: hidden;
+}
+
+.multiple-items {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.show-all-img {
+    display: flex;
+}
+
+.img-1 img {
+    width: 100%;
+}
+
+.choose-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose-items button {
+    padding: 20px 30px;
+    width: 100%;
+    color: #ff3838;
+    border: none;
+}
+
+#discover-rentals {
+    margin-right: 10px;
+}
+
+.create-account-top-details {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fit-icon {
+    height: 10px;
+    width: 10px;
+}
+
+.inside-house {
+    display: flex;
+    justify-content: space-between;
+}
+
+.locations {
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inside-house-1 {
+    display: flex;
+    align-items: center;
+}
+
+.book-rental {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-rental button {
+    width: 100%;
+    border: 0;
+    padding: 20px 30px;
+}
+
+#c-available {
+    margin-right: 20px;
+}
+
+.top-slider,
+.show-more-rental-details {
+    background-color: #cad3c8;
+    padding: 30px 0px;
+}
+
+.moredetails-send-message,
+.moredetails-house {
+    background-color: #fff;
+}
+
+.form-send-mess {
+    padding: 20px;
+}
+
+.text-area-send,
+.form-group-send-message {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.text-area-send textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    outline-width: 0;
+}
+
+.form-group-send-message input {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    outline-width: 0;
+}
+
+.send-messag-btn button {
+    background-color: #ff3838;
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.moredetails-house-view {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.moredetails-content {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.moredetails-house-view span {
+    margin-right: 20px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.moredetails-content-title h6 {
+    font-weight: 700;
+}
+
+.moredetails-content-body p {
+    line-height: 30px;
+    font-weight: 400;
+    color: #57606f;
+}
